@@ -47,7 +47,7 @@ The project employs a combination of SQL and Excel for data analysis:
 * **SQL:** Used for data extraction, cleaning, filtering, and aggregation. The data was set up in SQL Developer with the following steps:
 
     * Data was sorted by country, and filtered to include only India, China, and the USA.
-    * A unique incident key was created for each individual event.
+    * A unique incident key was created for each event.
     * Column types were checked and adjusted as needed (e.g., assigning columns as Numbers or Floats).
     * For floating-point numbers, decimal places were set to two.
     * In the Attack Type, Attack Source, Defense Mechanism Used, and Security Vulnerability Type columns, " - " was replaced with a space.
@@ -232,7 +232,7 @@ The project employs a combination of SQL and Excel for data analysis:
     * Creating pivot tables to summarize data.
     * Generating charts (bar charts, scatter plots, dot plots) to visualize trends and relationships.
     * Calculating correlation coefficients.
-    * Presenting findings in a clear and concise manner.
+    * Presenting findings clearly and concisely.
 
 ## Analysis Steps
 
@@ -298,15 +298,25 @@ This project showcases the following technical skills:
 
 ## Lessons Learned
 
-Throughout this project, I learned: \* \[Mention any specific lessons you learned, e.g., "the importance of data cleaning," "how to use a specific SQL function," "how to create effective visualizations," etc.\]
+Throughout this project, I learned:
+* The importance of meticulous data cleaning.
+* How to effectively use SQL for data extraction, filtering, and aggregation.
+* How to leverage Excel for in-depth data manipulation and visualization.
+* Techniques for statistical analysis, including calculating correlation coefficients.
+* Best practices for communicating findings through clear and concise report writing.
 
 ## Future Improvements
 
-\* [Suggest potential future improvements, e.g., "Incorporate additional data sources," "Develop more interactive visualizations," "Perform more advanced statistical analysis," etc.]
+* Further expand SQL skills, exploring advanced query techniques for deeper data insights.
+* Enhance data visualization capabilities using Excel and Power BI to create more interactive and informative dashboards.
+* Perform more advanced statistical analysis, including regression analysis and hypothesis testing, to draw stronger conclusions.
+* Utilize Python and the Pandas library for more complex data manipulation and analysis.
 
 ## Author
 
-\* [Your Name] \* [Your Email or Website (optional)] \* [Your LinkedIn Profile (optional)]
+* Prabesh Rai
+* prai2023@outlook.com
+* [Prabesh Rai LinkedIn Profile](https://www.linkedin.com/in/prabesh-raii/)
 
 ## License
 
