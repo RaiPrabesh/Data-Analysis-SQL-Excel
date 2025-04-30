@@ -50,7 +50,7 @@ The project employs a combination of SQL and Excel for data analysis:
     * Column types were checked and adjusted as needed (e.g., assigning columns as Numbers or Floats).
     * For floating-point numbers, decimal places were set to two.
     * In the Attack Type, Attack Source, Defense Mechanism Used, and Security Vulnerability Type columns, " - " was replaced with a space.
-    * Columns with spaces in their names were renamed to use "_" instead, for SQL Developer compatibility.
+    * Columns Header with spaces in their names were renamed to use "_" instead, for SQL Developer compatibility.
     * Unnecessary columns were removed, and three CSV files were created: country\_log.csv, Industry\_Attack\_Source.csv, and Security\_Defense\_log.csv.
     * The three CSV files were imported into SQL Developer.
     * In SQL Developer, the following import steps were used:
