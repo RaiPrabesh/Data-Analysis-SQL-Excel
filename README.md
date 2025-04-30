@@ -1,6 +1,7 @@
 # Cybersecurity Incident Analysis in India, China, and the USA (2015-2024)
 
 ## Overview
+![Project Overview](https://via.placeholder.com/800x300)
 
 This project analyzes cybersecurity incident data across India, China, and the USA from 2015 to 2024. The analysis uses SQL and Excel to investigate trends, identify key vulnerabilities, and assess the financial impact of cyberattacks. This project demonstrates my data analysis skills, including data cleaning, manipulation, visualization, and interpretation.
 
@@ -50,7 +51,7 @@ The project employs a combination of SQL and Excel for data analysis:
     * Column types were checked and adjusted as needed (e.g., assigning columns as Numbers or Floats).
     * For floating-point numbers, decimal places were set to two.
     * In the Attack Type, Attack Source, Defense Mechanism Used, and Security Vulnerability Type columns, " - " was replaced with a space.
-    * Columns Header with spaces in their names were renamed to use "_" instead, for SQL Developer compatibility.
+    * Columns with spaces in their names were renamed to use "_" instead, for SQL Developer compatibility.
     * Unnecessary columns were removed, and three CSV files were created: country\_log.csv, Industry\_Attack\_Source.csv, and Security\_Defense\_log.csv.
     * The three CSV files were imported into SQL Developer.
     * In SQL Developer, the following import steps were used:
@@ -58,8 +59,6 @@ The project employs a combination of SQL and Excel for data analysis:
         * In the Data Import Wizard, the data location was selected using "Browse".
         * The option to include the header row was selected.
         * The import method was set to "Insert," a table name was provided, and all rows were selected for import.
-        * All columns were included.
-        * The import process was completed.
     * Primary keys were assigned as follows:
         * For the COUNTRYLIST table, INCIDENT\_KEY was set as the primary key.
         * For the DEFENSELOG and INDUSTRYLIST tables, INCIDENT\_KEY, SECURITY\_VULNERABILITY\_TYPE, and TARGET\_INDUSTRY were set as primary keys, respectively.
@@ -235,37 +234,56 @@ The project employs a combination of SQL and Excel for data analysis:
     * Calculating correlation coefficients.
     * Presenting findings in a clear and concise manner.
 
-## Key Findings
+## Analysis Steps
 
-The analysis reveals several key insights:
+### Problem Statement and Hypothesis 1
+* The data has already been filtered for the period between 2015 and 2024, so further filtering by year was unnecessary.
+* DDoS attacks caused the highest financial impact in the USA.
+* In India, SQL Injection caused the highest financial impact, while in China, Ransomware and DDoS attacks had a comparable impact.
+* The USA experienced the highest overall financial impact from cyberattacks, totaling $14,812.12 million, compared to India and China.
 
-* Financial Impact: The USA experienced the highest overall financial impact from cyberattacks between 2015 and 2024, although the most damaging attack types vary by country.
-* Vulnerability and Resolution Time: The relationship between security vulnerability type and incident resolution time varies across countries.
-* Targeted Industries: The IT and Retail industries are consistently among the most frequently targeted across India, China, and the USA, and also suffer the greatest financial losses.
-* Correlation: The correlation between financial impact and the number of affected users is generally weak across the three countries, suggesting other factors may be more influential in determining the extent of user impact.
+### Problem Statement and Hypothesis 2
+* The data reveals no consistent similarities in incident resolution times across India, China, and the USA when considering both security vulnerability type and defense mechanism.
+* After analyzing the average resolution time for "Unpatched Software" and "Social Engineering" in each country, the resolution times differed by country for each vulnerability type.
+* In some countries, "Social Engineering" incidents had shorter resolution times, while in others, they were longer than those involving "Unpatched Software."
+* However, when averaging the overall resolution times for "Social Engineering" and "Unpatched Software" across all defense mechanisms and the three countries, "Social Engineering" incidents tended to have shorter resolution times than "Unpatched Software" incidents.
+
+### Problem Statement and Hypothesis 3
+* Across India, China, and the USA, the IT industry consistently faces high incident frequencies, while Retail is a top target in the USA and India but slightly less in China, partially supporting our hypothesis.
+* In terms of financial loss, the IT and Retail sectors experience the most significant impact across all three countries.
+* Therefore, while Retail's targeting frequency varies slightly by country, both IT and Retail are key areas of concern for cybersecurity incidents and financial repercussions in these major economies.
+* The Education sector also shows high targeting frequency, particularly in China.
+
+### Problem Statement and Hypothesis 4
+* The data does not strongly support our hypothesis of a positive correlation between financial impact and the numbers of affected users across India, China and the USA.
+* The correlation is weak and positive in the USA and China , and slightly negative in India , indicating a minimal linear relationship overall.
 
 ## Visualizations
 
 [You can add images or links to your visualizations here. For example:]
 
 * Bar Chart: Financial Impact by Attack Type and Country
-    * [Image of bar chart, or link to where it's hosted]
-* Scatter Plot: Correlation between Financial Impact and Affected Users
-    * [Image of scatter plot, or link]
-* Dot Plot: Average Resolution Time by Vulnerability Type and Country
-    * [Image of dot plot, or link]
-
-## Project Structure
+    * * Scatter Plot: Correlation between Financial Impact and Affected Users
+    * * Dot Plot: Average Resolution Time by Vulnerability Type and Country
+    * ## Project Structure
 
 The repository is organized as follows:
 
-├── data/│   ├── [Data files (e.g., CSV, Excel files, SQL dumps)]├── sql/│   ├── [SQL scripts (e.g., create table statements, queries)]├── excel/│   ├── [Excel files (e.g., analysis workbooks, reports)]├── README.md└── LICENSE
+    ├── data/
+    │   ├── [Data files (e.g., CSV, Excel files, SQL dumps)]
+    ├── sql/
+    │   ├── [SQL scripts (e.g., create table statements, queries)]
+    ├── excel/
+    │   ├── [Excel files (e.g., analysis workbooks, reports)]
+    ├── README.md
+    └── LICENSE
+
 ## How to Use This Project
 
 1.  **Clone the repository:** `git clone [repository URL]`
 2.  **Set up the database:** [Provide instructions on how to set up the database, if applicable. If you're using a specific database system (e.g., MySQL, PostgreSQL), mention it here.]
-3.  **Run the SQL scripts:** Execute the SQL scripts in the `sql/` directory to create the database schema and populate it with data.
-4.  **Open the Excel files:** Open the Excel files in the `excel/` directory to view the data analysis and visualizations.
+    * **Run the SQL scripts:** Execute the SQL scripts in the `sql/` directory to create the database schema and populate it with data.
+    * **Open the Excel files:** Open the Excel files in the `excel/` directory to view the data analysis and visualizations.
 
 ## Technical Skills Demonstrated
 
@@ -284,14 +302,12 @@ Throughout this project, I learned: \* \[Mention any specific lessons you learne
 
 ## Future Improvements
 
-\* \[Suggest potential future improvements, e.g., "Incorporate additional data sources," "Develop more interactive visualizations," "Perform more advanced statistical analysis," etc.\]
+\* [Suggest potential future improvements, e.g., "Incorporate additional data sources," "Develop more interactive visualizations," "Perform more advanced statistical analysis," etc.]
 
 ## Author
 
-\* \[Your Name] \* \[Your Email or Website (optional)] \* \[Your LinkedIn Profile (optional)]
+\* [Your Name] \* [Your Email or Website (optional)] \* [Your LinkedIn Profile (optional)]
 
 ## License
 
 This project is licensed under the MIT License. See the \`LICENSE\` file for more information.
-
-
