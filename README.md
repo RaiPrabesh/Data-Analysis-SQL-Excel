@@ -51,18 +51,24 @@ The project employs a combination of SQL and Excel for data analysis:
     * Column types were checked and adjusted as needed (e.g., assigning columns as Numbers or Floats).
     * For floating-point numbers, decimal places were set to two.
     * In the Attack Type, Attack Source, Defense Mechanism Used, and Security Vulnerability Type columns, " - " was replaced with a space.
-    * Columns with spaces in their names were renamed to use "_" instead, for SQL Developer compatibility.
+   * ![Image](https://github.com/user-attachments/assets/29059bdb-bce3-4981-9535-91509878a39e)
+    * Columns with spaces in their names were renamed using the same step above to use "_" instead, for SQL Developer compatibility.
     * Unnecessary columns were removed, and three CSV files were created: country\_log.csv, Industry\_Attack\_Source.csv, and Security\_Defense\_log.csv.
+  * ![Image](https://github.com/user-attachments/assets/9c09b442-04ae-4c85-ba2e-1b0baba4d360)
     * The three CSV files were imported into SQL Developer.
     * In SQL Developer, the following import steps were used:
         * Right-click on the database table and select "Import Data".
         * In the Data Import Wizard, the data location was selected using "Browse".
+        * ![Image](https://github.com/user-attachments/assets/97788ab4-642f-4c72-94b0-e3967e6de9da)
         * The option to include the header row was selected.
-        * The import method was set to "Insert," a table name was provided, and all rows were selected for import.
+        * The import method was set to "Insert," a table name was provided, and all rows were selected for import by unchecking Import Row Limit.
+        * ![Image](https://github.com/user-attachments/assets/55425117-6632-4be3-839d-8c4ad33f56b9)
     * Primary keys were assigned as follows:
         * For the COUNTRYLIST table, INCIDENT\_KEY was set as the primary key.
+        * ![Image](https://github.com/user-attachments/assets/73672a72-0441-4659-967f-cc22f9ac6da2)
         * For the DEFENSELOG and INDUSTRYLIST tables, INCIDENT\_KEY, SECURITY\_VULNERABILITY\_TYPE, and TARGET\_INDUSTRY were set as primary keys, respectively.
     * Foreign key constraints were created with cascade delete options.
+    * ![Image](https://github.com/user-attachments/assets/de55c977-1f9c-4728-9e4c-7973820b6f62)
 
     The following SQL queries were then used for the analysis:
 
@@ -241,30 +247,33 @@ The project employs a combination of SQL and Excel for data analysis:
 * DDoS attacks caused the highest financial impact in the USA.
 * In India, SQL Injection caused the highest financial impact, while in China, Ransomware and DDoS attacks had a comparable impact.
 * The USA experienced the highest overall financial impact from cyberattacks, totaling $14,812.12 million, compared to India and China.
+* ![Image](https://github.com/user-attachments/assets/fa36c28b-95d0-4d29-819c-e7c5bc808f97)
 
 ### Problem Statement and Hypothesis 2
 * The data reveals no consistent similarities in incident resolution times across India, China, and the USA when considering both security vulnerability type and defense mechanism.
+* ![Image](https://github.com/user-attachments/assets/cf1e9c8c-dcd5-4252-aec8-045207f59517)
 * After analyzing the average resolution time for "Unpatched Software" and "Social Engineering" in each country, the resolution times differed by country for each vulnerability type.
+* ![Image](https://github.com/user-attachments/assets/1c6c4eab-bc09-4f38-88d1-749a82981814)
 * In some countries, "Social Engineering" incidents had shorter resolution times, while in others, they were longer than those involving "Unpatched Software."
 * However, when averaging the overall resolution times for "Social Engineering" and "Unpatched Software" across all defense mechanisms and the three countries, "Social Engineering" incidents tended to have shorter resolution times than "Unpatched Software" incidents.
+* ![Image](https://github.com/user-attachments/assets/e10facc7-b4ad-4348-9ba4-e4e022fdc620)
 
 ### Problem Statement and Hypothesis 3
-* Across India, China, and the USA, the IT industry consistently faces high incident frequencies, while Retail is a top target in the USA and India but slightly less in China, partially supporting our hypothesis.
+* Across India, China, and the USA, the IT industry consistently faces high incident frequencies, while Retail is a top-targeted industry in the USA and India but slightly less in China, partially supporting our hypothesis.
+* ![Image](https://github.com/user-attachments/assets/33bca94f-3cf1-4943-b605-8b58a7a8fd1d)
 * In terms of financial loss, the IT and Retail sectors experience the most significant impact across all three countries.
+* ![Image](https://github.com/user-attachments/assets/37875fa3-55d9-463a-8436-7a07686315d0)
 * Therefore, while Retail's targeting frequency varies slightly by country, both IT and Retail are key areas of concern for cybersecurity incidents and financial repercussions in these major economies.
+* ![Image](https://github.com/user-attachments/assets/161e6b1c-96e2-411c-834e-906e9a17a5ba)
 * The Education sector also shows high targeting frequency, particularly in China.
 
 ### Problem Statement and Hypothesis 4
 * The data does not strongly support our hypothesis of a positive correlation between financial impact and the numbers of affected users across India, China and the USA.
+* ![Image](https://github.com/user-attachments/assets/0d7c4cfa-dcc6-4d3c-af06-137e350a8ab8)
 * The correlation is weak and positive in the USA and China , and slightly negative in India , indicating a minimal linear relationship overall.
+* ![Image](https://github.com/user-attachments/assets/45ea8980-e78e-4af0-9144-f80f65dc714a)
 
-## Visualizations
 
-[You can add images or links to your visualizations here. For example:]
-
-* Bar Chart: Financial Impact by Attack Type and Country
-    * * Scatter Plot: Correlation between Financial Impact and Affected Users
-    * * Dot Plot: Average Resolution Time by Vulnerability Type and Country
     * ## Project Structure
 
 The repository is organized as follows:
