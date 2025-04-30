@@ -1,7 +1,7 @@
 # Cybersecurity Incident Analysis in India, China, and the USA (2015-2024)
 
 ## Overview
-![Project Overview](https://via.placeholder.com/800x300)
+![Image](https://github.com/user-attachments/assets/358360a8-6bcf-4d77-b51f-090f5591fa5b)
 
 This project analyzes cybersecurity incident data across India, China, and the USA from 2015 to 2024. The analysis uses SQL and Excel to investigate trends, identify key vulnerabilities, and assess the financial impact of cyberattacks. This project demonstrates my data analysis skills, including data cleaning, manipulation, visualization, and interpretation.
 
