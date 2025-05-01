@@ -1,0 +1,877 @@
+Incident_key,Security_Vulnerability_Type,Defense_Mechanism_Used
+1,Unpatched Software,VPN
+2,Unpatched Software,Firewall
+3,Weak Passwords,VPN
+4,Social Engineering,VPN
+5,Zero day,VPN
+6,Unpatched Software,AI based Detection
+7,Zero day,Firewall
+8,Social Engineering,Encryption
+9,Social Engineering,AI based Detection
+10,Unpatched Software,Firewall
+11,Zero day,AI based Detection
+12,Unpatched Software,Encryption
+13,Zero day,Firewall
+14,Weak Passwords,AI based Detection
+15,Zero day,VPN
+16,Zero day,VPN
+17,Unpatched Software,VPN
+18,Zero day,VPN
+19,Zero day,AI based Detection
+20,Unpatched Software,AI based Detection
+21,Unpatched Software,Firewall
+22,Zero day,VPN
+23,Zero day,Firewall
+24,Social Engineering,Firewall
+25,Zero day,Firewall
+26,Unpatched Software,Firewall
+27,Social Engineering,Firewall
+28,Weak Passwords,Antivirus
+29,Weak Passwords,Encryption
+30,Unpatched Software,Antivirus
+31,Unpatched Software,Antivirus
+32,Social Engineering,AI based Detection
+33,Unpatched Software,Firewall
+34,Unpatched Software,Encryption
+35,Social Engineering,Encryption
+36,Zero day,Antivirus
+37,Unpatched Software,Encryption
+38,Social Engineering,Encryption
+39,Social Engineering,Antivirus
+40,Zero day,VPN
+41,Weak Passwords,AI based Detection
+42,Zero day,VPN
+43,Unpatched Software,AI based Detection
+44,Social Engineering,AI based Detection
+45,Zero day,Firewall
+46,Zero day,Encryption
+47,Social Engineering,Antivirus
+48,Social Engineering,Antivirus
+49,Social Engineering,AI based Detection
+50,Zero day,VPN
+51,Unpatched Software,AI based Detection
+52,Social Engineering,VPN
+53,Unpatched Software,AI based Detection
+54,Zero day,VPN
+55,Weak Passwords,Firewall
+56,Weak Passwords,Antivirus
+57,Zero day,AI based Detection
+58,Zero day,Firewall
+59,Weak Passwords,Antivirus
+60,Unpatched Software,Antivirus
+61,Zero day,VPN
+62,Social Engineering,Firewall
+63,Unpatched Software,AI based Detection
+64,Social Engineering,Firewall
+65,Unpatched Software,VPN
+66,Zero day,Encryption
+67,Zero day,Antivirus
+68,Unpatched Software,AI based Detection
+69,Weak Passwords,Firewall
+70,Zero day,Antivirus
+71,Weak Passwords,VPN
+72,Weak Passwords,Firewall
+73,Zero day,AI based Detection
+74,Zero day,Firewall
+75,Zero day,AI based Detection
+76,Zero day,VPN
+77,Unpatched Software,AI based Detection
+78,Social Engineering,VPN
+79,Weak Passwords,Firewall
+80,Unpatched Software,Antivirus
+81,Weak Passwords,AI based Detection
+82,Weak Passwords,AI based Detection
+83,Zero day,AI based Detection
+84,Zero day,AI based Detection
+85,Zero day,VPN
+86,Social Engineering,Encryption
+87,Weak Passwords,Encryption
+88,Weak Passwords,VPN
+89,Zero day,AI based Detection
+90,Weak Passwords,Firewall
+91,Zero day,Firewall
+92,Social Engineering,AI based Detection
+93,Weak Passwords,VPN
+94,Social Engineering,Antivirus
+95,Social Engineering,VPN
+96,Social Engineering,Antivirus
+97,Weak Passwords,Antivirus
+98,Zero day,VPN
+99,Zero day,VPN
+100,Zero day,Encryption
+101,Social Engineering,Firewall
+102,Social Engineering,AI based Detection
+103,Zero day,Antivirus
+104,Weak Passwords,Antivirus
+105,Social Engineering,VPN
+106,Zero day,AI based Detection
+107,Unpatched Software,Firewall
+108,Weak Passwords,AI based Detection
+109,Unpatched Software,Encryption
+110,Weak Passwords,Encryption
+111,Unpatched Software,AI based Detection
+112,Social Engineering,Encryption
+113,Unpatched Software,Firewall
+114,Social Engineering,VPN
+115,Weak Passwords,AI based Detection
+116,Zero day,VPN
+117,Social Engineering,Encryption
+118,Zero day,Firewall
+119,Zero day,VPN
+120,Social Engineering,Antivirus
+121,Weak Passwords,Firewall
+122,Zero day,Firewall
+123,Weak Passwords,Firewall
+124,Unpatched Software,Encryption
+125,Zero day,Encryption
+126,Social Engineering,Encryption
+127,Weak Passwords,VPN
+128,Social Engineering,Antivirus
+129,Social Engineering,Antivirus
+130,Zero day,AI based Detection
+131,Unpatched Software,AI based Detection
+132,Social Engineering,AI based Detection
+133,Zero day,AI based Detection
+134,Social Engineering,Antivirus
+135,Unpatched Software,AI based Detection
+136,Unpatched Software,Encryption
+137,Zero day,Firewall
+138,Unpatched Software,Firewall
+139,Social Engineering,Antivirus
+140,Weak Passwords,Encryption
+141,Unpatched Software,VPN
+142,Weak Passwords,AI based Detection
+143,Unpatched Software,AI based Detection
+144,Unpatched Software,Encryption
+145,Weak Passwords,Firewall
+146,Zero day,Antivirus
+147,Unpatched Software,Antivirus
+148,Zero day,AI based Detection
+149,Weak Passwords,Encryption
+150,Zero day,Encryption
+151,Social Engineering,Encryption
+152,Social Engineering,Firewall
+153,Weak Passwords,AI based Detection
+154,Unpatched Software,Antivirus
+155,Social Engineering,VPN
+156,Unpatched Software,VPN
+157,Weak Passwords,Encryption
+158,Social Engineering,Firewall
+159,Weak Passwords,Antivirus
+160,Zero day,AI based Detection
+161,Zero day,Antivirus
+162,Unpatched Software,Encryption
+163,Social Engineering,AI based Detection
+164,Social Engineering,Firewall
+165,Social Engineering,Encryption
+166,Weak Passwords,Antivirus
+167,Unpatched Software,Antivirus
+168,Unpatched Software,Firewall
+169,Unpatched Software,Encryption
+170,Zero day,AI based Detection
+171,Unpatched Software,VPN
+172,Unpatched Software,AI based Detection
+173,Zero day,VPN
+174,Zero day,AI based Detection
+175,Social Engineering,Antivirus
+176,Unpatched Software,VPN
+177,Zero day,AI based Detection
+178,Unpatched Software,VPN
+179,Social Engineering,VPN
+180,Zero day,Firewall
+181,Social Engineering,AI based Detection
+182,Social Engineering,Encryption
+183,Unpatched Software,VPN
+184,Social Engineering,Antivirus
+185,Social Engineering,Firewall
+186,Unpatched Software,Antivirus
+187,Zero day,VPN
+188,Zero day,AI based Detection
+189,Unpatched Software,Firewall
+190,Weak Passwords,Encryption
+191,Unpatched Software,Firewall
+192,Social Engineering,Firewall
+193,Unpatched Software,Antivirus
+194,Weak Passwords,Firewall
+195,Social Engineering,Encryption
+196,Social Engineering,Encryption
+197,Zero day,VPN
+198,Unpatched Software,Encryption
+199,Social Engineering,AI based Detection
+200,Zero day,Encryption
+201,Social Engineering,Antivirus
+202,Social Engineering,Antivirus
+203,Zero day,AI based Detection
+204,Zero day,Encryption
+205,Zero day,VPN
+206,Zero day,VPN
+207,Zero day,Antivirus
+208,Zero day,Firewall
+209,Weak Passwords,Encryption
+210,Social Engineering,Antivirus
+211,Weak Passwords,Encryption
+212,Social Engineering,Firewall
+213,Unpatched Software,AI based Detection
+214,Unpatched Software,AI based Detection
+215,Weak Passwords,AI based Detection
+216,Zero day,AI based Detection
+217,Unpatched Software,VPN
+218,Weak Passwords,Encryption
+219,Weak Passwords,VPN
+220,Weak Passwords,Firewall
+221,Social Engineering,VPN
+222,Weak Passwords,AI based Detection
+223,Weak Passwords,AI based Detection
+224,Zero day,AI based Detection
+225,Social Engineering,Encryption
+226,Unpatched Software,AI based Detection
+227,Zero day,AI based Detection
+228,Unpatched Software,Encryption
+229,Social Engineering,VPN
+230,Zero day,Antivirus
+231,Social Engineering,Encryption
+232,Social Engineering,Antivirus
+233,Weak Passwords,Encryption
+234,Social Engineering,AI based Detection
+235,Zero day,VPN
+236,Unpatched Software,Encryption
+237,Zero day,AI based Detection
+238,Social Engineering,Firewall
+239,Unpatched Software,AI based Detection
+240,Unpatched Software,AI based Detection
+241,Social Engineering,Encryption
+242,Unpatched Software,Firewall
+243,Unpatched Software,VPN
+244,Weak Passwords,VPN
+245,Unpatched Software,VPN
+246,Unpatched Software,Antivirus
+247,Social Engineering,Firewall
+248,Social Engineering,Antivirus
+249,Weak Passwords,Antivirus
+250,Weak Passwords,Antivirus
+251,Social Engineering,Antivirus
+252,Unpatched Software,Encryption
+253,Unpatched Software,Firewall
+254,Social Engineering,AI based Detection
+255,Social Engineering,Encryption
+256,Unpatched Software,Encryption
+257,Zero day,Encryption
+258,Unpatched Software,Antivirus
+259,Social Engineering,VPN
+260,Weak Passwords,Antivirus
+261,Social Engineering,Antivirus
+262,Weak Passwords,Firewall
+263,Unpatched Software,VPN
+264,Social Engineering,Antivirus
+265,Unpatched Software,Antivirus
+266,Weak Passwords,Encryption
+267,Weak Passwords,Firewall
+268,Weak Passwords,Antivirus
+269,Unpatched Software,AI based Detection
+270,Social Engineering,Firewall
+271,Zero day,Firewall
+272,Social Engineering,AI based Detection
+273,Zero day,Antivirus
+274,Zero day,AI based Detection
+275,Social Engineering,AI based Detection
+276,Zero day,VPN
+277,Zero day,AI based Detection
+278,Weak Passwords,VPN
+279,Zero day,VPN
+280,Zero day,AI based Detection
+281,Unpatched Software,Firewall
+282,Zero day,VPN
+283,Zero day,Firewall
+284,Social Engineering,VPN
+285,Zero day,Encryption
+286,Weak Passwords,AI based Detection
+287,Weak Passwords,Encryption
+288,Unpatched Software,Encryption
+289,Unpatched Software,AI based Detection
+290,Social Engineering,Antivirus
+291,Unpatched Software,VPN
+292,Zero day,VPN
+293,Zero day,Firewall
+294,Zero day,Firewall
+295,Social Engineering,VPN
+296,Weak Passwords,VPN
+297,Weak Passwords,Encryption
+298,Weak Passwords,VPN
+299,Social Engineering,Encryption
+300,Zero day,Firewall
+301,Zero day,VPN
+302,Social Engineering,Antivirus
+303,Zero day,Encryption
+304,Social Engineering,AI based Detection
+305,Zero day,Antivirus
+306,Unpatched Software,Antivirus
+307,Unpatched Software,Antivirus
+308,Weak Passwords,AI based Detection
+309,Zero day,Firewall
+310,Zero day,Encryption
+311,Zero day,VPN
+312,Zero day,VPN
+313,Social Engineering,AI based Detection
+314,Zero day,AI based Detection
+315,Unpatched Software,Encryption
+316,Unpatched Software,VPN
+317,Zero day,Firewall
+318,Social Engineering,VPN
+319,Weak Passwords,AI based Detection
+320,Zero day,Antivirus
+321,Social Engineering,Antivirus
+322,Unpatched Software,Firewall
+323,Zero day,Firewall
+324,Weak Passwords,Antivirus
+325,Weak Passwords,VPN
+326,Weak Passwords,AI based Detection
+327,Social Engineering,VPN
+328,Social Engineering,VPN
+329,Zero day,Encryption
+330,Social Engineering,VPN
+331,Zero day,AI based Detection
+332,Zero day,VPN
+333,Social Engineering,Antivirus
+334,Zero day,VPN
+335,Unpatched Software,AI based Detection
+336,Weak Passwords,Encryption
+337,Social Engineering,Firewall
+338,Zero day,Antivirus
+339,Weak Passwords,AI based Detection
+340,Weak Passwords,VPN
+341,Unpatched Software,Encryption
+342,Social Engineering,VPN
+343,Weak Passwords,Antivirus
+344,Weak Passwords,Encryption
+345,Unpatched Software,Antivirus
+346,Weak Passwords,Firewall
+347,Zero day,Encryption
+348,Weak Passwords,VPN
+349,Weak Passwords,Encryption
+350,Weak Passwords,Encryption
+351,Weak Passwords,Antivirus
+352,Social Engineering,Firewall
+353,Zero day,Encryption
+354,Social Engineering,VPN
+355,Weak Passwords,Encryption
+356,Unpatched Software,VPN
+357,Weak Passwords,Encryption
+358,Unpatched Software,AI based Detection
+359,Unpatched Software,Encryption
+360,Unpatched Software,Antivirus
+361,Unpatched Software,Encryption
+362,Zero day,Antivirus
+363,Social Engineering,VPN
+364,Unpatched Software,VPN
+365,Unpatched Software,Encryption
+366,Unpatched Software,VPN
+367,Social Engineering,Encryption
+368,Unpatched Software,Antivirus
+369,Weak Passwords,VPN
+370,Weak Passwords,Antivirus
+371,Unpatched Software,VPN
+372,Unpatched Software,Encryption
+373,Zero day,Firewall
+374,Weak Passwords,AI based Detection
+375,Social Engineering,AI based Detection
+376,Weak Passwords,Antivirus
+377,Weak Passwords,Firewall
+378,Zero day,VPN
+379,Weak Passwords,AI based Detection
+380,Zero day,AI based Detection
+381,Weak Passwords,VPN
+382,Social Engineering,Firewall
+383,Zero day,Antivirus
+384,Social Engineering,Firewall
+385,Social Engineering,Antivirus
+386,Unpatched Software,Antivirus
+387,Weak Passwords,Encryption
+388,Zero day,VPN
+389,Unpatched Software,VPN
+390,Weak Passwords,Antivirus
+391,Unpatched Software,Firewall
+392,Unpatched Software,Encryption
+393,Unpatched Software,Firewall
+394,Social Engineering,Encryption
+395,Social Engineering,VPN
+396,Social Engineering,Antivirus
+397,Weak Passwords,Firewall
+398,Unpatched Software,VPN
+399,Weak Passwords,Antivirus
+400,Zero day,VPN
+401,Unpatched Software,Firewall
+402,Weak Passwords,VPN
+403,Zero day,Antivirus
+404,Weak Passwords,Firewall
+405,Social Engineering,Encryption
+406,Weak Passwords,AI based Detection
+407,Social Engineering,VPN
+408,Unpatched Software,Encryption
+409,Weak Passwords,Antivirus
+410,Unpatched Software,Firewall
+411,Unpatched Software,Encryption
+412,Weak Passwords,Encryption
+413,Social Engineering,Antivirus
+414,Zero day,Antivirus
+415,Weak Passwords,Firewall
+416,Social Engineering,AI based Detection
+417,Zero day,AI based Detection
+418,Weak Passwords,Antivirus
+419,Unpatched Software,Encryption
+420,Zero day,Encryption
+421,Zero day,Firewall
+422,Social Engineering,Encryption
+423,Social Engineering,VPN
+424,Unpatched Software,Firewall
+425,Unpatched Software,Firewall
+426,Social Engineering,Firewall
+427,Unpatched Software,AI based Detection
+428,Social Engineering,VPN
+429,Weak Passwords,Encryption
+430,Weak Passwords,VPN
+431,Weak Passwords,Antivirus
+432,Unpatched Software,Encryption
+433,Weak Passwords,Antivirus
+434,Zero day,VPN
+435,Zero day,VPN
+436,Zero day,AI based Detection
+437,Social Engineering,VPN
+438,Social Engineering,Firewall
+439,Zero day,AI based Detection
+440,Weak Passwords,Firewall
+441,Unpatched Software,Firewall
+442,Unpatched Software,VPN
+443,Unpatched Software,VPN
+444,Weak Passwords,Antivirus
+445,Unpatched Software,Antivirus
+446,Zero day,Antivirus
+447,Social Engineering,VPN
+448,Weak Passwords,Firewall
+449,Unpatched Software,VPN
+450,Weak Passwords,Antivirus
+451,Zero day,Encryption
+452,Unpatched Software,VPN
+453,Social Engineering,VPN
+454,Zero day,Antivirus
+455,Zero day,VPN
+456,Social Engineering,Firewall
+457,Unpatched Software,VPN
+458,Zero day,VPN
+459,Social Engineering,AI based Detection
+460,Unpatched Software,Antivirus
+461,Social Engineering,Encryption
+462,Weak Passwords,AI based Detection
+463,Social Engineering,Firewall
+464,Zero day,VPN
+465,Social Engineering,Antivirus
+466,Zero day,Antivirus
+467,Zero day,VPN
+468,Weak Passwords,VPN
+469,Weak Passwords,Encryption
+470,Unpatched Software,Encryption
+471,Zero day,AI based Detection
+472,Zero day,Encryption
+473,Social Engineering,Firewall
+474,Weak Passwords,Encryption
+475,Social Engineering,VPN
+476,Unpatched Software,Antivirus
+477,Weak Passwords,Antivirus
+478,Unpatched Software,Antivirus
+479,Zero day,VPN
+480,Zero day,Antivirus
+481,Social Engineering,Encryption
+482,Social Engineering,AI based Detection
+483,Weak Passwords,Firewall
+484,Zero day,Encryption
+485,Zero day,Encryption
+486,Zero day,Firewall
+487,Weak Passwords,Antivirus
+488,Social Engineering,AI based Detection
+489,Unpatched Software,Antivirus
+490,Unpatched Software,AI based Detection
+491,Unpatched Software,VPN
+492,Unpatched Software,Antivirus
+493,Social Engineering,Firewall
+494,Social Engineering,AI based Detection
+495,Unpatched Software,Antivirus
+496,Zero day,VPN
+497,Unpatched Software,Antivirus
+498,Unpatched Software,Firewall
+499,Weak Passwords,VPN
+500,Social Engineering,Firewall
+501,Social Engineering,Firewall
+502,Zero day,Firewall
+503,Weak Passwords,VPN
+504,Weak Passwords,AI based Detection
+505,Social Engineering,Encryption
+506,Zero day,Firewall
+507,Zero day,Antivirus
+508,Zero day,AI based Detection
+509,Unpatched Software,Antivirus
+510,Weak Passwords,AI based Detection
+511,Unpatched Software,Firewall
+512,Social Engineering,Antivirus
+513,Zero day,Antivirus
+514,Social Engineering,AI based Detection
+515,Weak Passwords,Firewall
+516,Social Engineering,VPN
+517,Zero day,Encryption
+518,Social Engineering,AI based Detection
+519,Weak Passwords,Antivirus
+520,Weak Passwords,Antivirus
+521,Zero day,Encryption
+522,Weak Passwords,Antivirus
+523,Weak Passwords,AI based Detection
+524,Unpatched Software,Firewall
+525,Zero day,AI based Detection
+526,Zero day,Firewall
+527,Social Engineering,AI based Detection
+528,Social Engineering,Firewall
+529,Weak Passwords,Antivirus
+530,Unpatched Software,VPN
+531,Zero day,AI based Detection
+532,Zero day,AI based Detection
+533,Weak Passwords,AI based Detection
+534,Zero day,VPN
+535,Zero day,VPN
+536,Zero day,AI based Detection
+537,Unpatched Software,Encryption
+538,Zero day,AI based Detection
+539,Weak Passwords,AI based Detection
+540,Weak Passwords,Antivirus
+541,Social Engineering,VPN
+542,Unpatched Software,AI based Detection
+543,Unpatched Software,VPN
+544,Social Engineering,Antivirus
+545,Social Engineering,VPN
+546,Social Engineering,Encryption
+547,Social Engineering,Encryption
+548,Social Engineering,Firewall
+549,Unpatched Software,Antivirus
+550,Weak Passwords,Firewall
+551,Weak Passwords,VPN
+552,Unpatched Software,VPN
+553,Weak Passwords,Encryption
+554,Weak Passwords,Antivirus
+555,Weak Passwords,Encryption
+556,Zero day,Firewall
+557,Unpatched Software,Firewall
+558,Social Engineering,VPN
+559,Social Engineering,Firewall
+560,Zero day,Firewall
+561,Zero day,Encryption
+562,Social Engineering,Antivirus
+563,Social Engineering,VPN
+564,Weak Passwords,Firewall
+565,Unpatched Software,Firewall
+566,Social Engineering,Antivirus
+567,Social Engineering,Firewall
+568,Weak Passwords,AI based Detection
+569,Social Engineering,Encryption
+570,Zero day,Antivirus
+571,Unpatched Software,VPN
+572,Weak Passwords,VPN
+573,Unpatched Software,Antivirus
+574,Zero day,VPN
+575,Weak Passwords,Antivirus
+576,Social Engineering,Firewall
+577,Weak Passwords,Antivirus
+578,Weak Passwords,VPN
+579,Unpatched Software,Antivirus
+580,Weak Passwords,VPN
+581,Unpatched Software,Firewall
+582,Weak Passwords,Antivirus
+583,Weak Passwords,AI based Detection
+584,Zero day,Encryption
+585,Unpatched Software,AI based Detection
+586,Social Engineering,Antivirus
+587,Social Engineering,VPN
+588,Weak Passwords,Encryption
+589,Weak Passwords,AI based Detection
+590,Zero day,Antivirus
+591,Weak Passwords,Antivirus
+592,Unpatched Software,VPN
+593,Unpatched Software,Firewall
+594,Social Engineering,Antivirus
+595,Unpatched Software,Firewall
+596,Unpatched Software,VPN
+597,Unpatched Software,Antivirus
+598,Weak Passwords,Antivirus
+599,Zero day,AI based Detection
+600,Social Engineering,AI based Detection
+601,Weak Passwords,Encryption
+602,Weak Passwords,VPN
+603,Zero day,Firewall
+604,Social Engineering,Antivirus
+605,Weak Passwords,VPN
+606,Weak Passwords,Encryption
+607,Zero day,Antivirus
+608,Unpatched Software,Antivirus
+609,Weak Passwords,Firewall
+610,Social Engineering,Firewall
+611,Unpatched Software,VPN
+612,Weak Passwords,Firewall
+613,Unpatched Software,Antivirus
+614,Weak Passwords,VPN
+615,Unpatched Software,Firewall
+616,Zero day,Firewall
+617,Unpatched Software,VPN
+618,Weak Passwords,VPN
+619,Unpatched Software,VPN
+620,Unpatched Software,Antivirus
+621,Unpatched Software,Firewall
+622,Weak Passwords,AI based Detection
+623,Unpatched Software,Encryption
+624,Social Engineering,AI based Detection
+625,Social Engineering,Encryption
+626,Zero day,Firewall
+627,Weak Passwords,Firewall
+628,Zero day,VPN
+629,Weak Passwords,Encryption
+630,Zero day,Firewall
+631,Unpatched Software,VPN
+632,Weak Passwords,Antivirus
+633,Weak Passwords,Encryption
+634,Weak Passwords,Encryption
+635,Unpatched Software,Firewall
+636,Zero day,Antivirus
+637,Unpatched Software,Antivirus
+638,Social Engineering,Firewall
+639,Unpatched Software,Firewall
+640,Zero day,AI based Detection
+641,Weak Passwords,Encryption
+642,Unpatched Software,Firewall
+643,Social Engineering,Encryption
+644,Zero day,VPN
+645,Zero day,AI based Detection
+646,Social Engineering,VPN
+647,Zero day,Antivirus
+648,Weak Passwords,Firewall
+649,Social Engineering,Antivirus
+650,Unpatched Software,AI based Detection
+651,Unpatched Software,Firewall
+652,Weak Passwords,Antivirus
+653,Unpatched Software,Encryption
+654,Unpatched Software,Encryption
+655,Unpatched Software,Firewall
+656,Social Engineering,VPN
+657,Social Engineering,VPN
+658,Unpatched Software,Firewall
+659,Social Engineering,Encryption
+660,Zero day,Firewall
+661,Unpatched Software,AI based Detection
+662,Social Engineering,Firewall
+663,Weak Passwords,Firewall
+664,Unpatched Software,Firewall
+665,Zero day,Antivirus
+666,Social Engineering,AI based Detection
+667,Social Engineering,Firewall
+668,Weak Passwords,Encryption
+669,Social Engineering,AI based Detection
+670,Zero day,VPN
+671,Unpatched Software,Antivirus
+672,Zero day,VPN
+673,Social Engineering,VPN
+674,Zero day,VPN
+675,Social Engineering,Firewall
+676,Zero day,Encryption
+677,Zero day,Antivirus
+678,Social Engineering,AI based Detection
+679,Social Engineering,Antivirus
+680,Social Engineering,VPN
+681,Weak Passwords,Encryption
+682,Zero day,VPN
+683,Unpatched Software,Antivirus
+684,Unpatched Software,Firewall
+685,Social Engineering,Antivirus
+686,Zero day,Firewall
+687,Weak Passwords,Firewall
+688,Social Engineering,AI based Detection
+689,Unpatched Software,VPN
+690,Unpatched Software,Antivirus
+691,Zero day,Encryption
+692,Weak Passwords,Antivirus
+693,Weak Passwords,AI based Detection
+694,Zero day,AI based Detection
+695,Zero day,AI based Detection
+696,Unpatched Software,VPN
+697,Unpatched Software,Antivirus
+698,Weak Passwords,Encryption
+699,Zero day,Antivirus
+700,Unpatched Software,AI based Detection
+701,Unpatched Software,VPN
+702,Zero day,Firewall
+703,Weak Passwords,Firewall
+704,Zero day,Antivirus
+705,Social Engineering,Firewall
+706,Social Engineering,VPN
+707,Zero day,AI based Detection
+708,Zero day,VPN
+709,Unpatched Software,Encryption
+710,Weak Passwords,Antivirus
+711,Zero day,VPN
+712,Weak Passwords,AI based Detection
+713,Zero day,Firewall
+714,Zero day,Firewall
+715,Weak Passwords,Antivirus
+716,Unpatched Software,AI based Detection
+717,Zero day,Encryption
+718,Zero day,VPN
+719,Social Engineering,Antivirus
+720,Weak Passwords,AI based Detection
+721,Unpatched Software,Firewall
+722,Weak Passwords,AI based Detection
+723,Zero day,Antivirus
+724,Weak Passwords,AI based Detection
+725,Weak Passwords,Antivirus
+726,Social Engineering,Encryption
+727,Unpatched Software,AI based Detection
+728,Weak Passwords,Antivirus
+729,Zero day,VPN
+730,Weak Passwords,VPN
+731,Social Engineering,Encryption
+732,Social Engineering,Antivirus
+733,Zero day,Encryption
+734,Social Engineering,VPN
+735,Unpatched Software,AI based Detection
+736,Weak Passwords,Firewall
+737,Unpatched Software,Antivirus
+738,Zero day,AI based Detection
+739,Weak Passwords,VPN
+740,Social Engineering,Encryption
+741,Zero day,Firewall
+742,Weak Passwords,Firewall
+743,Zero day,Encryption
+744,Unpatched Software,VPN
+745,Weak Passwords,Antivirus
+746,Social Engineering,AI based Detection
+747,Unpatched Software,Antivirus
+748,Social Engineering,AI based Detection
+749,Zero day,Antivirus
+750,Weak Passwords,Encryption
+751,Weak Passwords,VPN
+752,Zero day,VPN
+753,Unpatched Software,VPN
+754,Social Engineering,Antivirus
+755,Zero day,Antivirus
+756,Social Engineering,AI based Detection
+757,Unpatched Software,Firewall
+758,Social Engineering,Firewall
+759,Social Engineering,Firewall
+760,Zero day,Firewall
+761,Zero day,Encryption
+762,Social Engineering,VPN
+763,Social Engineering,Firewall
+764,Weak Passwords,Antivirus
+765,Zero day,Firewall
+766,Weak Passwords,Antivirus
+767,Weak Passwords,Firewall
+768,Zero day,VPN
+769,Zero day,Firewall
+770,Zero day,Antivirus
+771,Weak Passwords,AI based Detection
+772,Weak Passwords,VPN
+773,Weak Passwords,Encryption
+774,Zero day,Encryption
+775,Zero day,Antivirus
+776,Social Engineering,Encryption
+777,Weak Passwords,Encryption
+778,Unpatched Software,Antivirus
+779,Unpatched Software,Encryption
+780,Social Engineering,Antivirus
+781,Weak Passwords,Encryption
+782,Weak Passwords,Firewall
+783,Zero day,Antivirus
+784,Social Engineering,Firewall
+785,Zero day,Antivirus
+786,Zero day,AI based Detection
+787,Social Engineering,AI based Detection
+788,Weak Passwords,Encryption
+789,Social Engineering,VPN
+790,Zero day,Firewall
+791,Unpatched Software,AI based Detection
+792,Social Engineering,Firewall
+793,Social Engineering,Encryption
+794,Weak Passwords,VPN
+795,Unpatched Software,Encryption
+796,Unpatched Software,AI based Detection
+797,Social Engineering,VPN
+798,Weak Passwords,AI based Detection
+799,Weak Passwords,Firewall
+800,Weak Passwords,Firewall
+801,Social Engineering,Antivirus
+802,Zero day,Encryption
+803,Unpatched Software,VPN
+804,Social Engineering,VPN
+805,Unpatched Software,Encryption
+806,Unpatched Software,Antivirus
+807,Unpatched Software,Encryption
+808,Zero day,Encryption
+809,Zero day,AI based Detection
+810,Weak Passwords,Firewall
+811,Zero day,VPN
+812,Unpatched Software,Firewall
+813,Unpatched Software,AI based Detection
+814,Weak Passwords,AI based Detection
+815,Unpatched Software,Encryption
+816,Zero day,AI based Detection
+817,Social Engineering,VPN
+818,Social Engineering,Antivirus
+819,Social Engineering,AI based Detection
+820,Zero day,Firewall
+821,Unpatched Software,AI based Detection
+822,Unpatched Software,Antivirus
+823,Social Engineering,AI based Detection
+824,Unpatched Software,Firewall
+825,Social Engineering,Antivirus
+826,Zero day,Antivirus
+827,Zero day,VPN
+828,Unpatched Software,Encryption
+829,Weak Passwords,VPN
+830,Zero day,Firewall
+831,Zero day,Antivirus
+832,Unpatched Software,AI based Detection
+833,Social Engineering,Antivirus
+834,Weak Passwords,Firewall
+835,Unpatched Software,VPN
+836,Zero day,AI based Detection
+837,Social Engineering,Antivirus
+838,Weak Passwords,AI based Detection
+839,Weak Passwords,AI based Detection
+840,Unpatched Software,AI based Detection
+841,Social Engineering,Encryption
+842,Unpatched Software,AI based Detection
+843,Zero day,VPN
+844,Social Engineering,VPN
+845,Weak Passwords,Encryption
+846,Unpatched Software,Encryption
+847,Unpatched Software,AI based Detection
+848,Weak Passwords,Antivirus
+849,Unpatched Software,Encryption
+850,Zero day,AI based Detection
+851,Zero day,Antivirus
+852,Social Engineering,Antivirus
+853,Weak Passwords,VPN
+854,Unpatched Software,Firewall
+855,Weak Passwords,Antivirus
+856,Unpatched Software,AI based Detection
+857,Social Engineering,Encryption
+858,Weak Passwords,Encryption
+859,Social Engineering,Encryption
+860,Unpatched Software,VPN
+861,Zero day,Firewall
+862,Unpatched Software,Firewall
+863,Social Engineering,Antivirus
+864,Weak Passwords,VPN
+865,Unpatched Software,Antivirus
+866,Zero day,Firewall
+867,Weak Passwords,Firewall
+868,Unpatched Software,Firewall
+869,Zero day,Firewall
+870,Social Engineering,Antivirus
+871,Social Engineering,Firewall
+872,Zero day,Antivirus
+873,Social Engineering,Encryption
+874,Unpatched Software,VPN
+875,Social Engineering,Encryption
+876,Social Engineering,Antivirus
