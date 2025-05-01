@@ -289,8 +289,9 @@ The project employs a combination of SQL and Excel for data analysis:
     git clone [https://github.com/RaiPrabesh/Data-Analysis-SQL-Excel.git](https://github.com/RaiPrabesh/Data-Analysis-SQL-Excel.git)
     ```
 2.  **Set up the database:** See the 'Methods' section for details on importing the provided CSV files (`country_log.csv`, `Industry_Attack_Source.csv`, `Security_Defense_log.csv`) into SQL Developer (Oracle Database) or a similar SQL environment. Ensure table names and **relationships** (Primary/Foreign Keys) are set up as described.
-3.  **Run analysis queries:** Execute the SQL queries listed in the 'Methods' section against the imported data to replicate the analysis steps. *NOte: Depending on your environment, some queries may have different methods and functions*
-4.  **Explore Excel files:** Open the Excel files to view the summarized data, visualizations, and reports.
+3.  **Run analysis queries:** Execute the SQL queries listed in the 'Methods' section against the imported data to replicate the analysis steps.
+   *Note: Depending on your environment, some queries may have different methods and functions*
+5.  **Explore Excel files:** Open the Excel files to view the summarized data, visualizations, and reports.
 
 ## Technical Skills Demonstrated
 
