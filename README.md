@@ -247,13 +247,16 @@ The project employs a combination of SQL and Excel for data analysis:
 * The data had already been filtered for the period between **2015 and 2024**.
 * **DDoS attacks** caused the highest **financial impact** in the **USA** and **China**.
 * In **India**, SQL Injection caused the highest **financial impact**.
+* ![image](https://github.com/user-attachments/assets/64d46bb2-cccf-4f3f-9cce-bf08927550af)
 * ![Image](https://github.com/user-attachments/assets/671c72bc-64a3-44c7-87bf-2d14cbf2873b)
 * The **USA** experienced the highest overall **financial impact** from cyberattacks, totaling **$14,812.12 million**, compared to **India** and **China**, supporting Hypothesis 1.
+* ![image](https://github.com/user-attachments/assets/0500740b-962d-4114-974f-862faabf6a78)
 * ![image](https://github.com/user-attachments/assets/30b12049-c744-4dc2-8dc4-3bf1f80e62a4)
 
 ### Problem Statement and Hypothesis 2 (**Resolution** Time vs. **Vulnerability** & **Defense Mechanism Used**)
 * **Findings:**
 * The data revealed no consistent patterns in **incident resolution** times across **India**, **China**, and the **USA** when considering both **security vulnerability** type and **defense mechanism** simultaneously.
+* ![image](https://github.com/user-attachments/assets/0b933639-bf82-4c00-8148-809bb0c511b9)
 * ![Image](https://github.com/user-attachments/assets/cf1e9c8c-dcd5-4252-aec8-045207f59517)
 * Average **incident resolution** times for **“Unpatched Software”** and **“Social Engineering”** incidents varied significantly by **country**.
 * ![Image](https://github.com/user-attachments/assets/1c6c4eab-bc09-4f38-88d1-749a82981814)
@@ -265,6 +268,7 @@ The project employs a combination of SQL and Excel for data analysis:
 ### Problem Statement and Hypothesis 3 (Targeted **Industries** & **Financial Loss**)
 * **Findings:**
 * In the **USA**, the **“Retail”** **industry** was the most frequently targeted. In **India**, the **IT** **industry** was most targeted. In **China**, both the **IT** and **Education** **industries** were the most targeted.
+* ![image](https://github.com/user-attachments/assets/d3db4909-a6aa-4eae-939f-ab859fba0ee6)
 * ![image](https://github.com/user-attachments/assets/743c4488-fc82-4204-8cd6-b52a7b35574b)
 * In terms of **financial loss**, the **IT** and **Retail** sectors experienced the most significant impacts across the three countries combined.
 * ![image](https://github.com/user-attachments/assets/95a118e9-778a-46ad-a6c1-9011d40b6551)
@@ -277,6 +281,7 @@ The project employs a combination of SQL and Excel for data analysis:
 ### Problem Statement and Hypothesis 4 (**Correlation**: **Financial Impact** vs. Affected Users)
 * **Findings:**
 * The data did not strongly support the hypothesis of a consistent positive **correlation** between **financial impact** and the number of affected users across **India**, **China**, and the **USA**.
+* ![image](https://github.com/user-attachments/assets/ee2b6024-faec-41e8-a1bc-4145bd79bc4d)
 * ![image](https://github.com/user-attachments/assets/3063bc21-21a0-4c58-8453-595f2a9a9cc9)
 * The **correlation** coefficient was weak and positive in the **USA** (0.147) and **China** (0.078), and weak and slightly negative in **India** (-0.057), indicating a minimal linear **relationship** overall between these two variables in our dataset.
 * ![Image](https://github.com/user-attachments/assets/45ea8980-e78e-4af0-9144-f80f65dc714a)
