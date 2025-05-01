@@ -244,10 +244,12 @@ The project employs a combination of SQL and Excel for data analysis:
 
 ### Problem Statement and Hypothesis 1
 * The data has already been filtered for the period between 2015 and 2024, so further filtering by year was unnecessary.
-* DDoS attacks caused the highest financial impact in the USA.
-* In India, SQL Injection caused the highest financial impact, while in China, Ransomware and DDoS attacks had a comparable impact.
+* DDoS attacks caused the highest financial impact in the USA and China.
+* In India, SQL Injection caused the highest financial impact.
+* ![Image](https://github.com/user-attachments/assets/671c72bc-64a3-44c7-87bf-2d14cbf2873b)
 * The USA experienced the highest overall financial impact from cyberattacks, totaling $14,812.12 million, compared to India and China.
-* ![Image](https://github.com/user-attachments/assets/fa36c28b-95d0-4d29-819c-e7c5bc808f97)
+* ![image](https://github.com/user-attachments/assets/30b12049-c744-4dc2-8dc4-3bf1f80e62a4)
+
 
 ### Problem Statement and Hypothesis 2
 * The data reveals no consistent similarities in incident resolution times across India, China, and the USA when considering both security vulnerability type and defense mechanism.
@@ -259,18 +261,20 @@ The project employs a combination of SQL and Excel for data analysis:
 * ![Image](https://github.com/user-attachments/assets/e10facc7-b4ad-4348-9ba4-e4e022fdc620)
 
 ### Problem Statement and Hypothesis 3
-* Across India, China, and the USA, the IT industry consistently faces high incident frequencies, while Retail is a top-targeted industry in the USA and India but slightly less in China, partially supporting our hypothesis.
-* ![Image](https://github.com/user-attachments/assets/33bca94f-3cf1-4943-b605-8b58a7a8fd1d)
+* In USA "Retail" industry is the most frequently targeted industry where IT industry is the most targeted in India and both IT and Education industries in China throughout the year.
+* ![image](https://github.com/user-attachments/assets/743c4488-fc82-4204-8cd6-b52a7b35574b)
 * In terms of financial loss, the IT and Retail sectors experience the most significant impact across all three countries.
-* ![Image](https://github.com/user-attachments/assets/37875fa3-55d9-463a-8436-7a07686315d0)
+* ![image](https://github.com/user-attachments/assets/95a118e9-778a-46ad-a6c1-9011d40b6551)
 * Therefore, while Retail's targeting frequency varies slightly by country, both IT and Retail are key areas of concern for cybersecurity incidents and financial repercussions in these major economies.
-* ![Image](https://github.com/user-attachments/assets/161e6b1c-96e2-411c-834e-906e9a17a5ba)
-* The Education sector also shows high targeting frequency, particularly in China.
+* The Education sector also shows high targeting frequency, particularly in China and falls under top three frequently targeted industries with highest financial losses.
+* ![image](https://github.com/user-attachments/assets/8b4d7bc4-62b6-4cfe-ba43-530d37552202)
+* There is also a strong positive correlation between incident frequency and financial loss. As the number of incidents rises, the financial loss tends to increase significantly.
+* ![image](https://github.com/user-attachments/assets/866e8a3b-be08-4f17-9d72-0e7908c85ff5)
 
 ### Problem Statement and Hypothesis 4
 * The data does not strongly support our hypothesis of a positive correlation between financial impact and the numbers of affected users across India, China and the USA.
-* ![Image](https://github.com/user-attachments/assets/0d7c4cfa-dcc6-4d3c-af06-137e350a8ab8)
-* The correlation is weak and positive in the USA and China , and slightly negative in India , indicating a minimal linear relationship overall.
+* ![image](https://github.com/user-attachments/assets/3063bc21-21a0-4c58-8453-595f2a9a9cc9)
+* The correlation is weak and positive in the USA and China, and slightly negative in India, indicating a minimal linear relationship overall.
 * ![Image](https://github.com/user-attachments/assets/45ea8980-e78e-4af0-9144-f80f65dc714a)
 
 
