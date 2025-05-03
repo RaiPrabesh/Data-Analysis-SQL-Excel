@@ -3,7 +3,9 @@
 ## Overview
 ![Image](https://github.com/user-attachments/assets/358360a8-6bcf-4d77-b51f-090f5591fa5b)
 
-This project analyzes cybersecurity incident data across **India**, **China**, and the **USA** from 2015 to 2024. The analysis uses SQL and Excel to investigate trends, identify key **vulnerabilities**, and assess the **financial impact** of cyberattacks. This project demonstrates data analysis skills, including data cleaning, manipulation, visualization, and interpretation.
+This project analyzes cybersecurity incident data across **India**, **China**, and the **USA** from 2015 to 2024. The analysis uses SQL and Excel to investigate trends, identify key **vulnerabilities**, and assess the **financial impact** of cyberattacks. This project demonstrates data analysis skills, including data cleaning, manipulation, visualization, and interpretation.  
+
+The original data file has 10 columns and 3001 rows. Later, we will perform a simple ETL process before our analysis.
 
 ## Project Goals
 
@@ -243,31 +245,34 @@ The project employs a combination of SQL and Excel for data analysis:
 ## Analysis Steps & Findings
 
 ### Problem Statement and Hypothesis 1 (Frequency & **Financial Impact** by Attack Type)
-* **Findings:**
-* The data had already been filtered for the period between **2015 and 2024**.
+**Findings:**
+* The data is already filtered for the period between **2015 and 2024** when we did our ETL process. Therefore for we do not need to filter it by year.
+* Interestingly, the frequency of different types of attacks from 2015 to 2024 for all countries is equal.
+* ![image](https://github.com/user-attachments/assets/4aed1893-af63-4416-a3b3-f97b4e29a63b)
+* ![image](https://github.com/user-attachments/assets/95ddf75b-d809-4fff-b68f-b21074c946af)
 * **DDoS attacks** caused the highest **financial impact** in the **USA** and **China**.
 * In **India**, SQL Injection caused the highest **financial impact**.
 * ![image](https://github.com/user-attachments/assets/64d46bb2-cccf-4f3f-9cce-bf08927550af)
-* ![Image](https://github.com/user-attachments/assets/671c72bc-64a3-44c7-87bf-2d14cbf2873b)
-* The **USA** experienced the highest overall **financial impact** from cyberattacks, totaling **$14,812.12 million**, compared to **India** and **China**, supporting Hypothesis 1.
+* ![image](https://github.com/user-attachments/assets/b2d7e738-c279-4ab8-aaab-856813a04263)
+* The **USA** experienced the highest overall **financial impact** from cyberattacks, totaling **$14,812.12 million**, compared to **India** and **China**, supporting our Hypothesis.
 * ![image](https://github.com/user-attachments/assets/0500740b-962d-4114-974f-862faabf6a78)
 * ![image](https://github.com/user-attachments/assets/30b12049-c744-4dc2-8dc4-3bf1f80e62a4)
 
 ### Problem Statement and Hypothesis 2 (**Resolution** Time vs. **Vulnerability** & **Defense Mechanism Used**)
-* **Findings:**
+**Findings:**
 * The data revealed no consistent patterns in **incident resolution** times across **India**, **China**, and the **USA** when considering both **security vulnerability** type and **defense mechanism** simultaneously.
 * ![image](https://github.com/user-attachments/assets/0b933639-bf82-4c00-8148-809bb0c511b9)
 * ![Image](https://github.com/user-attachments/assets/cf1e9c8c-dcd5-4252-aec8-045207f59517)
 * Average **incident resolution** times for **“Unpatched Software”** and **“Social Engineering”** incidents varied significantly by **country**.
-* ![Image](https://github.com/user-attachments/assets/1c6c4eab-bc09-4f38-88d1-749a82981814)
-* In some countries, **“Social Engineering”** incidents had shorter **incident resolution** times while in others, they were longer than those involving **“Unpatched Software”**.
+* ![image](https://github.com/user-attachments/assets/4e6e7cd4-b00b-40da-9234-82479a1443c4)
+* In **India** and **China**, **“Social Engineering”** incidents had shorter **incident resolution** times while in **USA**, longer than **“Unpatched Software”**.
 * However, when averaging across all defense mechanisms and all three countries, **“Social Engineering”** incidents did tend to have shorter overall average **incident resolution** times compared to **“Unpatched Software”** incidents.
-* **Social Engineering**, having shorter **resolution** times than **Unpatched Software** is partially supported when looking at the overall average across countries, but not consistently within each **country**.
+* Our report partially supports the idea that **Social Engineering** incidents have **shorter resolution times** than those involving **Unpatched Software** when considering the overall average across countries. However, this pattern isn't **consistent** across all countries, meaning our hypothesis isn't fully satisfied.
 * ![Image](https://github.com/user-attachments/assets/e10facc7-b4ad-4348-9ba4-e4e022fdc620)
 
 ### Problem Statement and Hypothesis 3 (Targeted **Industries** & **Financial Loss**)
-* **Findings:**
-* In the **USA**, the **“Retail”** **industry** was the most frequently targeted. In **India**, the **IT** **industry** was most targeted. In **China**, both the **IT** and **Education** **industries** were the most targeted.
+**Findings:**
+* In the **USA**, the **“Retail”** **industry** was the most frequently targeted. In **India** the **IT** **industry** was most targeted. In **China**, both the **IT** and **Education** **industries** were the most targeted.
 * ![image](https://github.com/user-attachments/assets/d3db4909-a6aa-4eae-939f-ab859fba0ee6)
 * ![image](https://github.com/user-attachments/assets/743c4488-fc82-4204-8cd6-b52a7b35574b)
 * In terms of **financial loss**, the **IT** and **Retail** sectors experienced the most significant impacts across the three countries combined.
@@ -276,16 +281,16 @@ The project employs a combination of SQL and Excel for data analysis:
 * ![image](https://github.com/user-attachments/assets/8b4d7bc4-62b6-4cfe-ba43-530d37552202)
 * There is a strong positive **correlation** between incident frequency and **financial loss** within **industries** as the number of incidents targeting an **industry** rose, the total **financial loss** tended to increase significantly.
 * ![image](https://github.com/user-attachments/assets/866e8a3b-be08-4f17-9d72-0e7908c85ff5)
-* **Retail** being top 3 targeted in all countries was not fully supported. However, the finding of a strong **relationship** between incident frequency and **financial loss** within **industries** exists.
+* **Retail** being top 3 targeted in all countries was not fully supported by our report. However, the finding of a strong **relationship** between incident frequency and **financial loss** within **industries** exists.
 
 ### Problem Statement and Hypothesis 4 (**Correlation**: **Financial Impact** vs. Affected Users)
-* **Findings:**
-* The data did not strongly support the hypothesis of a consistent positive **correlation** between **financial impact** and the number of affected users across **India**, **China**, and the **USA**.
+**Findings:**
+* The data did not strongly support our hypothesis of a consistent positive **correlation** between **financial impact** and the number of affected users across **India**, **China**, and the **USA**.
 * ![image](https://github.com/user-attachments/assets/ee2b6024-faec-41e8-a1bc-4145bd79bc4d)
 * ![image](https://github.com/user-attachments/assets/3063bc21-21a0-4c58-8453-595f2a9a9cc9)
-* The **correlation** coefficient was weak and positive in the **USA** (0.147) and **China** (0.078), and weak and slightly negative in **India** (-0.057), indicating a minimal linear **relationship** overall between these two variables in our dataset.
+* The **correlation** coefficient is weak and positive in the **USA** (0.147) and **China** (0.078), weak and slightly negative in **India** (-0.057), indicating a minimal linear **relationship** overall between these two variables in our report.
 * ![Image](https://github.com/user-attachments/assets/45ea8980-e78e-4af0-9144-f80f65dc714a)
-* Positive **correlation** between **financial impact** and **affected users** is not supported by our data report.
+* Our data report doesn't Positive **correlation** between **financial impact** and **affected users**.
 
 ## How to Use This Project
 
@@ -293,10 +298,12 @@ The project employs a combination of SQL and Excel for data analysis:
     ```bash
     git clone [https://github.com/RaiPrabesh/Data-Analysis-SQL-Excel.git](https://github.com/RaiPrabesh/Data-Analysis-SQL-Excel.git)
     ```
-2.  **Set up the database:** See the 'Methods' section for details on importing the provided CSV files (`country_log.csv`, `Industry_Attack_Source.csv`, `Security_Defense_log.csv`) into SQL Developer (Oracle Database) or a similar SQL environment. Ensure table names and **relationships** (Primary/Foreign Keys) are set up as described.
-3.  **Run analysis queries:** Execute the SQL queries listed in the 'Methods' section against the imported data to replicate the analysis steps.
-   *Note: Depending on your environment, some queries may have different methods and functions*
-5.  **Explore Excel files:** Open the Excel files to view the summarized data, visualizations, and reports.
+2.  **Set up the database:** See the 'Methods' section for details on importing the provided CSV files (`country_log.csv`, `Industry_Attack_Source.csv`, `Security_Defense_log.csv`) into SQL Developer (Oracle Database) or a similar SQL environment. Ensure table names and **relationships** (Primary/Foreign Keys) are set up as described in the SQL steps.  
+*"Note: You can download my folder from this repository that has a file with all the instructions related to assigning keys"*
+4.  **Run analysis queries:** Execute the SQL queries listed in the 'Methods' section against the imported data to replicate the analysis steps.  
+ *"Note: Depending on your environment, some queries may have different methods and functions"*
+6.  **Explore Excel files:** Open the Excel files to view the summarized data, create visualizations, and reports.  
+   *"Note: You can download my folder that has all the project-related files as well"*
 
 ## Technical Skills Demonstrated
 
