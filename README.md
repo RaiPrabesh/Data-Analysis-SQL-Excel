@@ -1,11 +1,11 @@
 # Cybersecurity Incident Analysis in **India**, **China**, and the **USA** (2015-2024)
 
 ## Overview
-![Image](https://github.com/user-attachments/assets/358360a8-6bcf-4d77-b51f-090f5591fa5b)
+![overview](https://github.com/user-attachments/assets/a608b26b-42a7-4f01-90c6-63452828a38d)
 
 This project analyzes cybersecurity incident data across **India**, **China**, and the **USA** from 2015 to 2024. The analysis uses SQL and Excel to investigate trends, identify key **vulnerabilities**, and assess the **financial impact** of cyberattacks. This project demonstrates data analysis skills, including data cleaning, manipulation, visualization, and interpretation.  
 
-The original data file has 10 columns and 3001 rows. Later, we will perform a simple ETL process before our analysis.
+The original data file has 10 columns and 3001 rows. Later, we will perform a simple ETL process, import in SQL Developer, assign keys, SQL queries and visualization.
 
 ## Project Goals
 
@@ -344,4 +344,4 @@ Potential future enhancements for this project could include:
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information. *(Ensure a LICENSE file is present in the repository)*
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
