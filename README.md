@@ -246,14 +246,14 @@ The project employs a combination of SQL and Excel for data analysis:
 
 ### Problem Statement and Hypothesis 1 (Frequency & **Financial Impact** by Attack Type)
 **Findings:**
-* The data is already filtered for the period between **2015 and 2024** when we did our ETL process. Therefore for we do not need to filter it by year.
-* Interestingly, the frequency of different types of attacks from 2015 to 2024 for all countries is equal.
-* ![image](https://github.com/user-attachments/assets/4aed1893-af63-4416-a3b3-f97b4e29a63b)
-* ![image](https://github.com/user-attachments/assets/95ddf75b-d809-4fff-b68f-b21074c946af)
+* The data is already filtered for the period between **2015 and 2024**; therefore, we can ignore this column unless we want to analyze each year.
+* The frequency of different types of attacks from 2015 to 2024 for all countries is different.
+* ![image](https://github.com/user-attachments/assets/458458ae-eaab-46d4-9c2b-c1812edc086e)
+* ![image](https://github.com/user-attachments/assets/b5188181-ac97-4a61-9378-a468eebade7a)
 * **DDoS attacks** caused the highest **financial impact** in the **USA** and **China**.
 * In **India**, SQL Injection caused the highest **financial impact**.
 * ![image](https://github.com/user-attachments/assets/64d46bb2-cccf-4f3f-9cce-bf08927550af)
-* ![image](https://github.com/user-attachments/assets/b2d7e738-c279-4ab8-aaab-856813a04263)
+* ![image](https://github.com/user-attachments/assets/b136f192-a25d-493e-a35c-701ddae7ff06)
 * The **USA** experienced the highest overall **financial impact** from cyberattacks, totaling **$14,812.12 million**, compared to **India** and **China**, supporting our Hypothesis.
 * ![image](https://github.com/user-attachments/assets/0500740b-962d-4114-974f-862faabf6a78)
 * ![image](https://github.com/user-attachments/assets/30b12049-c744-4dc2-8dc4-3bf1f80e62a4)
